@@ -1,15 +1,14 @@
 # Union of wide and deep learning applied to energy theft detection
 Implementation of a model based on the union of a wide and a deep convolutional neural network to detect energy theft detection based on the time series consumption. 
 
-This is a independent implementation based of a self interpretation of the paper "Wide and Deep Convolutional Neural Networks for Electricity-Theft Detection to Secure Smart Grids" (https://ieeexplore.ieee.org/document/8233155/).
+This is a independent implementation based of a self-interpretation of the paper "Wide and Deep Convolutional Neural Networks for Electricity-Theft Detection to Secure Smart Grids" (https://ieeexplore.ieee.org/document/8233155/).
 Data from: https://github.com/henryRDlab/ElectricityTheftDetection.
 
 To run the code, you must follow this secuence:
-1. data_preparation --> Sort dates, split data into labels and time series, one hot encode, outliers and NaNs treatment.
-2. wide_cnn --> Training and metrics of the model.
+1. data_preparation --> Sort dates, split data into labels and time series, one hot encode, outliers and NaNs treatment. Returns the data .cvs used in the wide_cnn notebook.
+2. wide_cnn --> Training and performance metrics of the model.
 
-In this implementation, there are 3 models, the main model WIDECNN, WideNet and CNNNet. WideNet and CNNet are models based on the components of the model WIDECNN, the idea behind this is to see the performance bust joining these components.
+The code has been run in Colab Notebooks, you must change the data URL to execute it.
 
-The code have been run in Colab Notebooks, you must change the data URL to execute it.
-
-Data --> 42.372 users, 1035 days, daily energy consumption
+Data --> 42.372 users, 1035 days, daily energy consumption.
+Code --> Python, Pytorch, Colab Notebook.
