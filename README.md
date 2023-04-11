@@ -7,8 +7,8 @@ This is a independent implementation based of a self-interpretation of the paper
 Data from: https://github.com/henryRDlab/ElectricityTheftDetection.
 
 To run the code, you must follow this secuence:
-1. data_preparation --> Sort dates, split data into labels and time series, one hot encode, outliers and NaNs treatment. Returns the data .cvs used in the wide_cnn notebook.
-2. wide_cnn --> Training and performance metrics of the model.
+1. data_preparation.ipynb --> Sort dates, split data into labels and time series, one hot encode, outliers and NaNs treatment. Returns the data .cvs used in the wide_cnn notebook.
+2. Wide_CNN.ipynb --> Training and performance metrics of the model.
 
 The code has been run in Colab Notebooks, you must change the data URL to execute it.
 
