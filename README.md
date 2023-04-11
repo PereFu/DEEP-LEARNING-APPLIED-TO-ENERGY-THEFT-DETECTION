@@ -1,5 +1,5 @@
 # Union of wide and deep learning applied to energy theft detection
-Implementation of a model based on the union of a wide and a deep convolutional neural network to detect energy theft detection based on the time series consumption. 
+Implementation of a model based on the union of a wide and a deep convolutional neural network to detect energy theft based on the a daily time series consumption. 
 
 ![image](https://user-images.githubusercontent.com/60358958/231254791-7be52589-24c2-49e4-a539-1c349f2ec2fc.png)
 
